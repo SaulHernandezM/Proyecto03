@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; /* Asegura que padding y border se incluyan en el cálculo del ancho */
+}
+
+body {
+    margin: 0;
+    background: rgb(173, 216, 230);
+}
+
+#agrupar {
+    display: flex; /* Usa flexbox para un diseño más flexible */
+    flex-wrap: wrap; /* Permite que los elementos se ajusten y envuelvan según el ancho */
+    margin: 15px auto;
+    text-align: left;
+}
+
+#cabecera {
+    text-align: center;
+    flex-basis: 100%; /* Hace que la cabecera ocupe el ancho completo */
+    background: rgb(207, 135, 83);
+    padding: 10px;
+}
+
+.centrar {
+    text-align: center;
+}
+
+#menu {
+    text-align: center;
+    flex-basis: 100%; /* Hace que el menú ocupe el ancho completo */
+    background: rgb(255, 248, 220);
+    padding: 5px 15px;
+}
+
+#seccion {
+    float: left;
+    width: 100%; /* Aumento el ancho de la sección */
+    margin: 20px;
+}
+
+#pie {
+    flex-basis: 100%; /* Hace que el pie de página ocupe el ancho completo */
+    padding: 20px;
+    border-top: 2px solid black;
+    background: rgb(102, 100, 100);
+}
+
+.pie { 
+    text-align: center;
+}
+
+        h1 {
+            font: bold 20px verdana, sans-serif;
+        }
+
+        h2 {
+            font: bold 14px verdana, sans-serif;
+        }
+
+        #logo {
+            width: 200px;
+            height: 200px;
+        }
+
+        #menu li {
+            display: inline-block;
+            list-style: none;
+            padding: 5px;
+            font: bold 14px verdana, sans-serif;
+        }
+
+        .iconos {
+            width: 35px;
+            height: 35px;
+        }
+
+        article {
+            background: rgb(255, 248, 220);
+            padding: 20px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        .pastelesimg {
+            width: 620px;
+            height: 400px;
+        }
+
+        .lista {
+            margin-right: 40px;
+        }
